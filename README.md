@@ -1,2 +1,3 @@
-# CSS
+# JAVASCRIPT
+
 Last task in css
