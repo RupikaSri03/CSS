@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<body>
+<script>
+
+1. Print vowels,consonants, numbers and count 
+
+let str = prompt("enter a username must be strong");
+let vowels = "";
+let consonants = "";
+let numbers = "";
+let vowelscount = 0;
+let consonantscount = 0;
+let numberscount = 0;
+
+for(i = 0; i <= str.length; i++){
+var char = str[i];
+if (char == "a" || char == "e" || char == "i" || char == "o" || char == "u"){
+vowels += char + " ";
+vowelscount++;
+}
+else if(char >= "a" && char <= "z"){
+    consonants += char + " ";
+    consonantscount++;
+}
+else if(char >= 0 && char<= 9){
+    numbers += char + " ";
+    numberscount++;
+}
+else{
+nothing = char;
+}
+}
+
+console.log("vowels:" + vowels);
+console.log("consonants:" + consonants);
+console.log("numbers:" + numbers);
+console.log("vowels=" + vowelscount)
+console.log("consonants=" + consonantscount)
+console.log("numbers=" + numberscount)
+
+
+2. print a string index using slice (for loop only)
+
+let a ="rupika"
+console.log(a.slice(1,5))
+
+function str(a){
+    for (i=1; i<a.length/1.3; i++)
+    
+    console.log(a[i])
+}
+
+str(a="rupika");
+
+
+
+
+  
+</script>
+
+
+</body>
+</html>
+
+
+
+
